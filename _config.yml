@@ -1,0 +1,27 @@
+destination: __www
+timezone: Etc/UTC
+port: 7004
+unpublished: false
+future: false
+url: https://www.cheswickdonuts.com
+
+collections:
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude: ["README.md", "azure-pipeline*.yml", "multistage*.yml", "LICENSE.md", "LICENSE-CODE"]
+
+jekyll-minifier:
+  exclude: "feed.xml"
+  uglifier_args:
+    harmony: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-minifier

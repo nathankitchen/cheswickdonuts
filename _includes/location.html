@@ -1,0 +1,15 @@
+<div class="card mb-3 text-white bg-secondary">
+    <div class="row g-0">
+        <div class="col-md-4">
+          <img src="/assets/images/{{ include.number }}-location.jpg" alt="The location of mystery donut number {{ include.number }}" height="202px">
+        </div>
+        <div class="col-md-8">
+        <div class="card-body text-start">
+            <h5 class="card-title">Mystery Donut #{{ include.number }}</h5>
+            <p class="card-text"><strong>what3words</strong>: <a href="https://w3w.co/{{ include.w3w }}">{{ include.w3w }}</a></p>
+            <p class="card-text"><strong>Apple Maps</strong>: <a href="https://maps.apple.com/?ll={{ include.lat }},{{ include.long }}&t=m&z=19&q=Mystery%20Donut%20%23{{ include.number }}" target="_blank">{{ include.lat }}, {{ include.long }}</a></p>
+            <p class="card-text">{{ include.text }}</p>
+        </div>
+        </div>
+    </div>
+</div>

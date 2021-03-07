@@ -1,0 +1,9 @@
+<h1>Congratulations, you found the {{ include.name }} donut!</h1>
+<p>Click the image below on your Apple device to view the donut in AR! Have a look at <a href="/help">Help</a> if you get stuck!</p>
+{%- capture m -%}/assets/ar/{{ include.type }}.usdz{%- endcapture-%}
+{%- capture t -%}/assets/images/{{ include.type }}.jpg{%- endcapture-%}
+{% include model.html model=m thumbnail=t %}
+<p>If you'd like to share a picture of yourself with the donut on social media, please consider tagging it with <strong>#cheswickdonuts</strong> so that others can see too!</p>
+<p>Finally, please put the QR Code back safely in its container for someone else to find!</p>
+<p>Here's what we got up to!</p>
+<img src="/assets/images/{{ include.number }}-donut.jpg" alt="A creative photo of a {{ inclue.name }} donut!" width="100%">
