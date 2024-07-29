@@ -3,7 +3,6 @@
 {%- capture m -%}/assets/ar/{{ include.type }}.usdz{%- endcapture-%}
 {%- capture t -%}/assets/images/{{ include.type }}.jpg{%- endcapture-%}
 {% include model.html model=m thumbnail=t %}
-<p>If you'd like to share a picture of yourself with the donut on social media, please consider tagging it with <strong>#cheswickdonuts</strong> so that others can see too!</p>
-<p>Finally, please put the QR Code back safely in its container for someone else to find!</p>
-<p>Here's what we got up to!</p>
-<img src="/assets/images/{{ include.number }}-donut.jpg" alt="A creative photo of a {{ inclue.name }} donut!" width="100%">
+<h2>Picture challenge</h2>
+<p class="tip">Every donut has its own challenge! If you want to take part, please follow the challenge instructions below, then WhatsApp/Message the picture to Nathan (or any leader) separately.</p>
+<div class="challenge"><p>{{ include.challenge}}</p></div>

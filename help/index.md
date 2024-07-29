@@ -20,7 +20,7 @@ In the mean time, to save disappointment, please feel free to [cheat](/cheat).
 ## How do we use the AR?
 First, you must be using an Apple device and (I think) viewing with Safari.
 
-When you've found a donut by following the link to the cheswickdonuts.com site, click the button with the picture of a 3D donut.
+When you've found a donut by following the link to the scyc.uk site, click the button with the picture of a 3D donut.
 
 If your device supports _AR Quick Look_ then your camera should open with a transparent donut. Follow the on-scren prompts, turning the device from side to side so that your device can map out the landscape.
 
